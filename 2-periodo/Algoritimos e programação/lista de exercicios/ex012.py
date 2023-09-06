@@ -54,4 +54,4 @@ else:
             else:
                 animal = "galinha"
 
-print(f"O animal que você está pensando é um(a) {animal}.")
+print(f"O animal que você está pensando é um(a) {animal} certo.")
