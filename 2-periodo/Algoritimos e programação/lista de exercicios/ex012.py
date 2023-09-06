@@ -66,4 +66,4 @@ elif pergunta1.lower() == "não":
 else:
     animal = "animal não identificado"
 
-print(f"O animal que você está pensando é um(a) {animal}.")
+print(f"O animal que você está pensando é um(a) {animal} certo.")
