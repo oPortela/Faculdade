@@ -11,7 +11,7 @@ else:
 n2 = int(input('2) Qual o resultado da multiplicação => 6 x 7: '))
 
 if n2 == 42:
-    print('Parabéns. você acertou\n') 
+    print('Parabéns. você acertou\n')
     nota += 1
 else:
     print('Ops, parece que sua resposta está incorreta. Aqui está uma dica: você pode primeiro somar o número 6 sete vezes.\n')
