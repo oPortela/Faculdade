@@ -1,0 +1,9 @@
+print('Olá, seja bem vindo a verificação de idades para a próxima eleição estudantil.')
+
+idade = int(input('Quantos anos você tem: '))
+anosVotar = 16 - idade
+
+if idade >= 16:
+    print('Parabéns! Você é elegível para votar na eleição estudantil! Dirija-se até a próxima sala.')
+else: 
+    print(f'Desculpe, infelizmente você ainda não tem idade suficiente para votar na eleição estudantil. Você precisará esperar {anosVotar} anos para conseguir votar.')
