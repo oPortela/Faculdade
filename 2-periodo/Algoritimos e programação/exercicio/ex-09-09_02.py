@@ -1,29 +1,30 @@
-mes = int(input('Digite um número: '))
+tipoImovel = input('Qual o tipo de imóvel, responda R(residências), I(industrias) ou C(comércio): ')
+KWh = float(input('Quantos KWh foram gastos durante o mês: '))
 
-match mes:
-    case 1:
-        print('Janeiro')
-    case 2:
-        print('Fevereiro')
-    case 3:
-        print('Março')
-    case 4:
-        print('Abril')
-    case 5:
-        print('Maio')
-    case 6:
-        print('Junho')
-    case 7:
-        print('Julho')
-    case 8:
-        print('Agosto')
-    case 9:
-        print('Setembro')
-    case 10:
-        print('Outubro')
-    case 11:
-        print('Novembro')
-    case 12: 
-        print('Dezembro')
+preco = 0
+
+match tipoImovel.upper():
+    case 'R':
+        if KWh <= 500:
+            preco = 0.40
+        else: 
+            preco = 0.65
+    case 'I':
+        if KWh <= 1000:
+            preco = 0.55
+        else: 
+            preco = 0.60
+    case 'C':
+        if KWh <= 5000:
+            preco = 0.55
+        else:
+            preco = 0.60
     case _:
-        print('número inválido')
+        print('tipo inválido!')
+
+valor = KWh * preco
+
+print('--------- Tabela de valores ---------')
+print(f'\t KWh = {KWh}')
+print(f'\t Valor = {valor}')
+print('-------------------------------------')
