@@ -1,3 +1,4 @@
+
 tipoImovel = input('Qual o tipo de imóvel, responda R(residências), I(industrias) ou C(comércio): ')
 KWh = float(input('Quantos KWh foram gastos durante o mês: '))
 
