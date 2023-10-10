@@ -26,3 +26,18 @@ for c in range(0,4):
     n = int(input('Digite um valor: '))
     soma += n
 print(f'O somatório de todos os valores são {soma}')
+
+
+dia = int(input('Digite o dia: '))
+mes = int(input('Digite o mes: '))
+ano = int(input('Digie o ano: '))
+
+match mes:
+    case 1:
+        mes = 'Janeiro'
+    case 2:
+        mes = 'Fevereiro'
+    case _:
+        print('ERRO!')
+
+print(f'{dia}/{mes}/{ano}')
