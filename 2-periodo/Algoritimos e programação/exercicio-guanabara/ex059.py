@@ -24,6 +24,7 @@ while calc != 5:
                 maior = n2
                 print(f'O número maior é o {maior}')
         case 4:
+            
             n1 = int(input('Digite outro número: '))
             n2 = int(input('Digite outro número: '))
         case _:
