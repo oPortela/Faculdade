@@ -149,9 +149,8 @@ while cont < 5: #loop para delimitar quantas perguntas irão rodar
             else:
                 print('Ops, parece que sua resposta está incorreta. Aqui está uma dica: Para calcular o número de cadeiras por fileira em uma sala de cinema com 19 fileiras e uma capacidade total de 304 pessoas, você pode usar a seguinte fórmula: Número de cadeiras por fileira = Capacidade total / Número de fileiras.\n')
                 repeat = input('Deseja refazer a questão [S/N]: ').upper()
-    print('Fim das perguntas! Parabéns por ter chegado até aqui.')#mensagem que irá aparecer se o usuário tiver feito as 5 questões
     break
-    
+    print('Fim das perguntas! Parabéns por ter chegado até aqui.')#mensagem que irá aparecer se o usuário tiver feito as 5 questões
 
 media = (nota / 5) * 100
 
