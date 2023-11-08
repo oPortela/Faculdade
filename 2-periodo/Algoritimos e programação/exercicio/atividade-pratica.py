@@ -74,3 +74,7 @@ print(f'A media da turma é {mediaTurma:.2f};')
 print(f'A maior média é do aluno {nomeMaior} com a média de {maiorMedia:.2f};')
 print(f'A menor média é do aluno {nomeMenor} com a média de {menorMedia:.2f}.')
 print('----------------------------------------------------------------------')
+
+
+print('----------------------------------------------------------------------')
+nome =  input('Digite o nome do aluno para a verificação de desempenho: ')
