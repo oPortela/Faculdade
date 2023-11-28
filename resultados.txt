@@ -1,0 +1,4 @@
+Pergunta: Qual é a capital do Brasil?
+Resposta do usuário: ok
+Correta: True
+
