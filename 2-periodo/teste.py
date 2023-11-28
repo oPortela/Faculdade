@@ -1,2 +1,11 @@
-print('Bem vindo a tela de lançamento de notas dos alunos!')
+soma = 0
 
+i = 1
+
+while i <= 5:
+
+    soma += i
+
+    i += 2
+
+print(soma)
