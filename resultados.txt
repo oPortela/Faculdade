@@ -1,4 +1,5 @@
-Pergunta: Qual é a capital do Brasil?
-Resposta do usuário: ok
-Correta: True
-
+Questão 1: Resposta: 4, Correta: False
+Questão 2: Resposta: 4, Correta: False
+Questão 3: Resposta: 4, Correta: False
+Questão 4: Resposta: 4, Correta: False
+Questão 5: Resposta: 4, Correta: False

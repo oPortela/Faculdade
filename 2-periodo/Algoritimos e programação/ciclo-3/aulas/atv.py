@@ -1,9 +1,11 @@
+# Recebe o nome completo do usuário
+nome_completo = input("Digite seu nome completo: ")
 
+# Divide o nome completo em partes usando o espaço como delimitador
+partes = nome_completo.split()
 
+# Inverte a ordem das partes
+nome_invertido = ' '.join(reversed(partes))
 
-
-numeros = [3, 5, 7, 8, 9, 10]
-for num in numeros:
-    if num % 2 == 0:
-        print(num)
-        break
+# Exibe o nome invertido
+print("Nome invertido:", nome_invertido)
