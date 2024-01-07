@@ -16,7 +16,7 @@ votos = [0] * len(sistema_operacional)
 voto = 1
 total_votos = 0
 
-print('-------------- Bem Vindo ao sistema de pesquisa --------------\n')
+print('-------------- Bem Vindo ao sistema de pesquisa --------------\n') #loop para imprimir os sistemas operacionais
 for i in range(len(sistema_operacional)):
     print(f'{i + 1}- {sistema_operacional[i]}')
 
