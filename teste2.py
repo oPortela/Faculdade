@@ -16,36 +16,21 @@ soma = 0
             if i > 6:
                 soma += sum(matriz[i])'''
                 
+                
+    for i in range(len(idades)):
+        if i == 0:
+            maior = idades[i]
+        elif i > 0 and idades[i] > maior:
+            maior = idades[i]
+            
+            
+    for i in range(len(idades)):
+        if i == 0:
+            menor = idades[i]
+        elif i > 0 and idades[i] < menor:
+            menor = idades[i]
 
-def gerarMatriz(n_linhas, n_colunas):
-    matriz = []
-    for _ in range(n_linhas):
-        matriz.append([0] * n_colunas)
-    return matriz
-
-def somaElementos(n_linhas, n_colunas, matriz):
-    soma = 0
-    for i in range(n_linhas):
-        for y in range(n_colunas):
-            if i >= 1:
-                soma += matriz[i][y]
-    return soma
-
-def inserirDadosMatriz():
-    nlinha = int(input('Digite o número de linhas: '))
-    ncoluna = int(input('Digite o número de colunas: '))
-    
-    matriz = gerarMatriz(nlinha, ncoluna)
-    
-    for i in range(nlinha):
-        for y in range(ncoluna):
-            matriz[i][y] = int(input(f'Digite o número da posição {i + 1}x{y + 1}: '))
-    
-    soma = somaElementos(nlinha, ncoluna, matriz)
-    
-    for i in range(nlinha):
-        print(matriz[i])
-    
-    print(f'A soma de todos os elementos da matriz é: {soma}')        
-
-inserirDadosMatriz()
+    qtdMulheres = 0
+    for i in range(len(sexos)):
+        if sexos[i] == 'F' and NumeroFilhos[i] == 3 and salarios[i] < 500:
+            qtdMulheres += 1

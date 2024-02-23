@@ -1,40 +1,68 @@
-#Função para gerar uma matriz
-def gerarMatriz (n_linhas, n_colunas):
-    matriz = []
-    for i in range(n_linhas):
-        matriz.append([0] * n_colunas)
+#função para calcular a média de salários
+def mediaSalarios(soma):
+    media = soma / 15
+    return media
 
-    return matriz
+#Função para descobrir qual a maior idade
+def maiorIdade(idade):
+    for i in range(15):
+        if i == 0:
+            maior = idade[i]
+        elif i > 0 and idade[i] > maior:
+            maior = idade[i]
+    
+    return maior
 
-#função para a soma dos elementos abaixo da sexta linha
-def somaElementos(n_linhas, n_colunas, matriz):
-    soma = 0
-    for i in range(n_linhas):
-        for y in range(n_colunas):
-            if i > 5:
-                soma += matriz[i][y]
-                
-    return soma
+#Função para descobrir qual a menor idade
+def menorIdade(idade):
+    for i in range(15):
+        if i == 0:
+            menor = idade[i]
+        elif i > 0 and idade[i] < menor:
+            menor = idade[i]
     
+    return menor
+#Função para saber quantas mulheres ganham menos de R$ 500,00 e possuem 3 filhos
+def qtdMulheres(sexo, numeroFilho, salario):
+    qtdMulher = 0
+    for i in range(15):
+        if sexo[i] == 'F' and numeroFilho[i] == 3 and salario[i] < 500:
+            qtdMulher += 1
+    
+    return qtdMulher
 
-#Procedure para realizar as operações com a matriz criada
-def inserirDadosMatriz():
-    nlinha = int(input('Digite o número de linhas: '))
-    ncoluna = int(input('Digite o número de colunas: '))
+#Procedures que chama o programa
+def pesquisa():
+    idades = [0] * 15 
+    sexos = [''] * 15
+    salarios = [0] * 15
+    NumeroFilhos = [0] * 15
     
-    matriz = gerarMatriz(nlinha, ncoluna)
+    for i in range(15):
+        idades[i] = int(input(f'\nQual a idade da {[i + 1]}° pessoa: '))
+        sexos[i] = input(f'Digite o sexo da {[i + 1]}° pessoa (M/F): ').upper()
+        salarios[i] = float(input(f'Digite o salário da {[i + 1]}° pessoa: '))
+        NumeroFilhos[i] = int(input(f'Digite o número de filhos da {[i + 1]}° pessoa: '))
+     
+    #Loop para fazer a soma do salário  
+    somaSalario = 0 
+    for i in range(15):
+        somaSalario += salarios[i]
     
-    #Loop para digitar os valores da matriz
-    for i in range(nlinha):
-        for y in range(ncoluna):
-            matriz[i][y] = int(input(f'Digite o número da posição {i + 1}x{y + 1}: '))
+    #Variavel para saber a maior e menor idade    
+    maior = maiorIdade(idades)      
+    menor = menorIdade(idades) 
+    mulheres = qtdMulheres(sexos, NumeroFilhos, salarios)
     
-    #Loop para fazer a soma dos 
-    soma = somaElementos(nlinha, ncoluna, matriz)
-    
-    for i in range(nlinha):
-        print(matriz[i])
-    
-    print(f'A soma dos elementos da matriz a partir do sexto elemento é: {soma}')        
+    media = mediaSalarios(somaSalario)
+    print(f'A média de salário das pessoas são: R${media:.2f}')
+    print(f'A maior idade registrada é {maior} e a menor foi {menor}')
+    print(f'O número de mulheres com mais de 3 filhos e que recebem até R$ 500,00 é: {mulheres}.')
 
-inserirDadosMatriz()
+
+def main():
+    print('Bem vindo ao sistema!')
+    
+    pesquisa()
+    
+main()
