@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: absolute;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    height: 400px;
+    width: 400px;
+}
+
+main > p{
+    position: relative;
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 200px;
+    width:200px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}

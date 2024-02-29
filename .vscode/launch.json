@@ -5,7 +5,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Open index.html",
-      "file": "C:\\Users\\oPortela\\Documents\\GitHub\\Faculdade\\3-periodo\\Pensamento computacional\\atividade\\index.html"
+      "file": "C:\\Users\\oPortela\\Documents\\GitHub\\Faculdade\\3-periodo\\Pensamento computacional\\aula-03\\index.html"
     },
     {
       "name": "C/C++ Runner: Debug Session",
