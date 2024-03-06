@@ -24,14 +24,12 @@ def main():
 main()'''
 
 def qtdNumeros(k, n):
-    # Base case: when k is less than 10
     if k < 10:
         if k == n:
             return 1
         else:
             return 0
     else:
-        # Recursive case: Count occurrences of n in the last digit of k
         last_digit = k % 10
         if last_digit == n:
             return 1 + qtdNumeros(k // 10, n)
