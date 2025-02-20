@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F38FC96-E104-366C-76E1-FE73AF2B0A8B" name="Usuario">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:13:32 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Usur</preferredAbbreviation>
+<shortName>Usur</shortName>
+<synonym>Usuari</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_usur" id="10ECB696-169E-01E5-1405-E96C796CC905">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:19:11 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="1A593BAD-5511-E94E-1F06-0F09C3E55D10">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:19:36 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_cnpj" id="24927235-D364-5BC8-F93B-ED58A228D671">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:28:30 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="92C37381-0EEA-9A1B-E8B8-00894DE905A5">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:20:03 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="41B7E639-7FFD-F4F6-1F54-21AA48D3A513">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:20:21 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="63D369D3-735B-54FE-B3E4-AFA22CDEA045">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:21:04 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro" id="B5D48E6F-7B5B-A2E0-4C95-B4A1A1E115E7">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:21:16 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D1BDF24-4F63-5AC9-8D02-CF2CF14BF593" name="Usuario PK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:19:29 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10ECB696-169E-01E5-1405-E96C796CC905</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

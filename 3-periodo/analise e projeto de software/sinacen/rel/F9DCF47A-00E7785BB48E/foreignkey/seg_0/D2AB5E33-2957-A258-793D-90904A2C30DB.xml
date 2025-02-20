@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2AB5E33-2957-A258-793D-90904A2C30DB" containerWithKeyObject="502AEB30-931C-97DF-3FA5-4A446E878C77" localFKIndex="29008038-1FAB-5A4B-671F-9E0FE980AA45" name="pedido_citens_pedc_FK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>048A7AD5-49D1-280E-1545-C49FCDE2AD91</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<referredTableLongName>pedc</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7486AD4-7CB7-DF2B-3D79-D1AE843DF9B1</referredTableID>
+<keyObject>EDDA7E14-95F2-C70A-93F5-323B29F2BD09</keyObject>
+<referredKeyID>EDDA7E14-95F2-C70A-93F5-323B29F2BD09</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numped,cli_codcli,Usur_cod_usur</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

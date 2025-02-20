@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7486AD4-7CB7-DF2B-3D79-D1AE843DF9B1" name="pedc">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>8A13E2F3-9308-B004-F465-94474ED67316</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<abbreviation>pedc</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numped" id="B9863849-F465-5616-AB75-8A5EAAB63749">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>AA19A879-ADBD-65F1-325B-9FF10FC56E0A</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codcli" id="86A84CAA-C16E-8526-A44F-413B6F4DCB1E">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>23DD1E87-3DD3-6844-BF90-6BF34AD16AF5</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_usur" id="B40B14BE-DF90-8DB4-464A-BE018AEA883A">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>88C0FACB-2A02-18BF-8B40-EF5DC09AAB89</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="8F987CA4-97AC-C9E6-11B3-6349F169D07F">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>933C4C9F-AB7D-60A3-60FF-48EA5E1CD6C6</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_pagamento" id="927DD987-D36B-2C53-A473-E276EB6AE9BC">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>498158D2-AE31-77A9-3531-266758D18950</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="E3C9703B-B574-8CB6-C5D2-96AFEDFB127D">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>E969D7ED-DC6C-99E8-2E1C-5599F94D3E3C</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="per_desconto" id="4D4EE78C-1099-FFC3-C174-D83D935EB8EB">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>74035DD7-166D-1582-0F8A-533767189744</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_venda" id="00632E99-3867-0384-77A6-EE9F0013240A">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>90114298-B6DC-4771-2117-AC1CB77B784D</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_codcli" id="3DA4DD72-6418-001A-C3FD-0D13F6A28F1E">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>5FEBE37C-0395-2ED9-74CF-AA8D629D3F00</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67D3120E-38BD-E31D-165F-DBBCE1307DB9" referredColumn="26A907DC-CE0D-1DD6-D06A-8CC1CA1D59B2"/>
+</associations>
+</Column>
+<Column name="Usur_cod_usur" id="2C69D41D-6817-11C4-54EE-4AF140095B6A">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>547A58FA-AC74-F00B-7876-F7AF21C357A9</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D38C7D81-910C-81BB-45ED-E38F1C5425F6" referredColumn="ED124D42-A27A-FDBE-8766-1A49181ACFF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDDA7E14-95F2-C70A-93F5-323B29F2BD09" name="pedc_PK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>05129825-E093-DF63-D280-5A650E637F31</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9863849-F465-5616-AB75-8A5EAAB63749"/>
+<colUsage columnID="3DA4DD72-6418-001A-C3FD-0D13F6A28F1E"/>
+<colUsage columnID="2C69D41D-6817-11C4-54EE-4AF140095B6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EF52E9-6CD3-C4BF-54AF-476C48ABC6EB" name="pedc_cli_FK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>1A159ADF-C943-8D78-49DA-1A6467AB8D7C</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DA4DD72-6418-001A-C3FD-0D13F6A28F1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9532A035-80BD-6BFA-98A9-FBE331169F95" name="pedc_Usur_FK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>E9550748-F8B8-CFDD-F071-7C0A1875BB66</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C69D41D-6817-11C4-54EE-4AF140095B6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

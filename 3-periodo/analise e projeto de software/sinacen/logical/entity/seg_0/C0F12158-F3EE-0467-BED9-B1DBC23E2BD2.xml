@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0F12158-F3EE-0467-BED9-B1DBC23E2BD2" name="pedido_citens">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pedi</shortName>
+<synonym>pedidoi</synonym>
+<synonymToDisplay>pedido_itens</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numped" id="9B71921B-58E9-E866-B7F2-BACED871C3E0">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="41D4DD5B-ED6B-C5EF-0FF0-14B866722618">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codcli" id="ACD47D24-4922-9D8F-E784-7855B81D72F4">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_prod" id="431D8FE5-EEFF-A3C6-845A-3057C9990C02">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:54:32 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd" id="0AFD0997-649F-AF3E-A94E-CD78CF423ED2">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:54:56 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="B9E1AA3C-0668-C938-0B10-1EC93A0E2B8C">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_desconto" id="F10CCFDA-0980-A966-5A32-B693D0D1347D">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_venda" id="54FF6991-5B2A-2DF8-7816-CFA77994D882">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_usur" id="2B965628-5853-875E-55BC-3ECCFB56BC3E">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numped1" id="7703EE77-167D-C4A0-4FA0-A873C314EF8D">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:57:43 UTC</createdTime>
+<generatorID>048A7AD5-49D1-280E-1545-C49FCDE2AD91</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>AA19A879-ADBD-65F1-325B-9FF10FC56E0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codcli1" id="292F5BE1-5F44-456E-5F5D-893F5AE7A663">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:57:55 UTC</createdTime>
+<generatorID>048A7AD5-49D1-280E-1545-C49FCDE2AD91</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>5FEBE37C-0395-2ED9-74CF-AA8D629D3F00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_usur1" id="DDD3433B-9CD4-4F9D-CAF9-D83C735EFA0B">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:58:23 UTC</createdTime>
+<generatorID>048A7AD5-49D1-280E-1545-C49FCDE2AD91</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>547A58FA-AC74-F00B-7876-F7AF21C357A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAA46662-CD97-6013-9EE6-47CA45E8BC68" name="pedido_cabecalho PK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:53:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B71921B-58E9-E866-B7F2-BACED871C3E0</attributeRef>
+<attributeRef>7703EE77-167D-C4A0-4FA0-A873C314EF8D</attributeRef>
+<attributeRef>292F5BE1-5F44-456E-5F5D-893F5AE7A663</attributeRef>
+<attributeRef>DDD3433B-9CD4-4F9D-CAF9-D83C735EFA0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

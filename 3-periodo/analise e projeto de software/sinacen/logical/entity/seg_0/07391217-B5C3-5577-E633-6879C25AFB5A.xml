@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07391217-B5C3-5577-E633-6879C25AFB5A" name="produtos">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:21:59 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Prod</preferredAbbreviation>
+<shortName>Prod</shortName>
+<synonym>product</synonym>
+<synonymToDisplay>produtos</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_prod" id="A0262862-8916-9F58-A1AF-AB305FE64F11">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:22:40 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produto" id="5D67DBAA-9F2D-C53D-AAA5-59CD8FE0629B">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:23:10 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_fornec" id="B0AD7C78-543F-A33F-6758-39D2F422C96E">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:24:53 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="CFC0DB60-A7EA-12F7-19B7-E33DD1DF0DD3">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:52:06 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="embalagem" id="AC5311B3-BFF7-4316-0595-858343676B4B">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:23:30 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gtin" id="3F94D705-ACA2-24C2-A37C-0BE31C4D9B4C">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:23:48 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ean" id="45B746C7-4BDD-EB6B-11BA-602F53B46E3F">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:24:24 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_fornec1" id="63A5AB0C-7EF5-FDA8-5C1E-A7002AC389AD">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:58:04 UTC</createdTime>
+<generatorID>50ADC91C-AC71-2725-CA58-B64AE1BE8C35</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>66514A5F-F177-EE73-EF18-350FD4B6E51D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numped" id="4D7FFD71-FE5C-B6FD-5592-E3EDAC98A553">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:58:10 UTC</createdTime>
+<generatorID>4A6C4A6F-A186-E990-9783-68C0B3B73B09</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>9B71921B-58E9-E866-B7F2-BACED871C3E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numped1" id="BE7A29BC-D59F-BE0F-3FA3-CB50A6EC61C2">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:58:10 UTC</createdTime>
+<generatorID>4A6C4A6F-A186-E990-9783-68C0B3B73B09</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>7703EE77-167D-C4A0-4FA0-A873C314EF8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codcli1" id="24F494C4-0A6C-66AD-7954-7777CA503184">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:58:10 UTC</createdTime>
+<generatorID>4A6C4A6F-A186-E990-9783-68C0B3B73B09</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>292F5BE1-5F44-456E-5F5D-893F5AE7A663</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_usur1" id="7258E4C5-AD42-EC0B-DDF7-688B4BF12AEE">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:58:23 UTC</createdTime>
+<generatorID>4A6C4A6F-A186-E990-9783-68C0B3B73B09</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<referedAttribute>DDD3433B-9CD4-4F9D-CAF9-D83C735EFA0B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D70F2686-8D6F-E086-1452-1B138D82B952" name="produtos PK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:23:07 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<engineerTo>
+<item key="F9DCF47A-4F3F-D24D-1BA8-00E7785BB48E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0262862-8916-9F58-A1AF-AB305FE64F11</attributeRef>
+<attributeRef>63A5AB0C-7EF5-FDA8-5C1E-A7002AC389AD</attributeRef>
+<attributeRef>4D7FFD71-FE5C-B6FD-5592-E3EDAC98A553</attributeRef>
+<attributeRef>BE7A29BC-D59F-BE0F-3FA3-CB50A6EC61C2</attributeRef>
+<attributeRef>24F494C4-0A6C-66AD-7954-7777CA503184</attributeRef>
+<attributeRef>7258E4C5-AD42-EC0B-DDF7-688B4BF12AEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

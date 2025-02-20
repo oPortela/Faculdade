@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="630A1227-F333-3C82-0685-5786FBF0D8E2" containerWithKeyObject="C683260E-6DF4-7986-9C68-533FE045309A" localFKIndex="B8DDC418-E2A1-0A3C-0EA6-4F87938C5F43" name="Prod_Fornec_FK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>50ADC91C-AC71-2725-CA58-B64AE1BE8C35</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<referredTableLongName>Fornec</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A407663A-54E6-8905-614D-8BDC5F525E2A</referredTableID>
+<keyObject>3100F716-EEDE-6355-0447-C672631812E1</keyObject>
+<referredKeyID>3100F716-EEDE-6355-0447-C672631812E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_fornec</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

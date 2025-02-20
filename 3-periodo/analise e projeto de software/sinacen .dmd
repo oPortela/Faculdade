@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sinacen " id="30322232-FA5F-7795-8A8D-3ACBFA36AB30" version="3.5">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:12:54 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>30322232-FA5F-7795-8A8D-3ACBFA36AB30</designId>
+</OSDM_Design>

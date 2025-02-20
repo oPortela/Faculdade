@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="345A5C3E-D90F-298F-E663-E52C541A5305" name="Usur">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>0F38FC96-E104-366C-76E1-FE73AF2B0A8B</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<abbreviation>Usur</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_usur" id="ED124D42-A27A-FDBE-8766-1A49181ACFF2">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>10ECB696-169E-01E5-1405-E96C796CC905</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="320F1D33-F601-10E2-C304-5EE12AF67821">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>1A593BAD-5511-E94E-1F06-0F09C3E55D10</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_cnpj" id="A57DD99F-B7CD-E0C9-0618-8C16674B5B45">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>24927235-D364-5BC8-F93B-ED58A228D671</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="2A66A438-2BB9-D0D8-2FF7-BC0B24607D58">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>92C37381-0EEA-9A1B-E8B8-00894DE905A5</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="74C156C5-6FA6-88FB-72FA-400874D5F7AA">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>41B7E639-7FFD-F4F6-1F54-21AA48D3A513</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="EE781571-2CC9-988B-886F-ED544A4CE98F">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>63D369D3-735B-54FE-B3E4-AFA22CDEA045</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="348DFD7D-5516-EAAF-B696-095C51F591EB">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>B5D48E6F-7B5B-A2E0-4C95-B4A1A1E115E7</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0B20C0C-2369-4C32-21D2-7A9EB46E4435" name="Usur_PK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>2D1BDF24-4F63-5AC9-8D02-CF2CF14BF593</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED124D42-A27A-FDBE-8766-1A49181ACFF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

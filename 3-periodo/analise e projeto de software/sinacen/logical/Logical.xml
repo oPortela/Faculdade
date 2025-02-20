@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3A222871-998A-B320-CA4D-6C50F645FD9C" mainViewID="BFEE797E-51C5-6FF7-874C-0AF050CADBC2">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-20 23:12:54 UTC</createdTime>
+<ownerDesignName>sinacen </ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

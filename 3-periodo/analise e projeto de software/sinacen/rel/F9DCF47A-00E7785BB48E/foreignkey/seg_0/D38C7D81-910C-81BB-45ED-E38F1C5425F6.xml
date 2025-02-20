@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D38C7D81-910C-81BB-45ED-E38F1C5425F6" containerWithKeyObject="E7486AD4-7CB7-DF2B-3D79-D1AE843DF9B1" localFKIndex="9532A035-80BD-6BFA-98A9-FBE331169F95" name="pedc_Usur_FK">
+<createdBy>oPortela</createdBy>
+<createdTime>2024-05-21 12:59:02 UTC</createdTime>
+<generatorID>E9550748-F8B8-CFDD-F071-7C0A1875BB66</generatorID>
+<ownerDesignName>sinacen </ownerDesignName>
+<referredTableLongName>Usur</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>345A5C3E-D90F-298F-E663-E52C541A5305</referredTableID>
+<keyObject>E0B20C0C-2369-4C32-21D2-7A9EB46E4435</keyObject>
+<referredKeyID>E0B20C0C-2369-4C32-21D2-7A9EB46E4435</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_usur</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
