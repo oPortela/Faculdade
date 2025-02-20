@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B72D2DFF-16C1-99BF-E46B-B0DE2E9011BF" name="empregados">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 17:58:48 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>empr</shortName>
+<synonym>funcionario</synonym>
+<synonymToDisplay>empregados</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codEmpr" id="410A1A04-A491-FD11-A0EC-8238B1B48174">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:05:21 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="125D04BF-8306-401B-19AE-A81A5FFB9CD0">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:05:50 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="FA30E122-9FC9-6780-53FF-918E63D30AA7">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:08:19 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtinicio" id="8D66485B-30D5-DCB9-2A89-E2640226710F">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:09:00 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtfim" id="37CE373B-E6C2-B0A2-D954-B4EA2C398C32">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:09:19 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtnascimento" id="F4C6566E-3F27-0B1B-30CF-6F6904F0B010">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:09:46 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="DAD67C28-48B5-E450-B166-75865BDD4A69">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:31:42 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codTelefone" id="98D9BEC5-4BDC-F094-C4C1-8C17847BEBCB">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:12:24 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codEndereco" id="CD4AF6DB-1EFC-AE5D-C52B-0D122B7E11D7">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:12:44 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obs" id="F8E88A4D-F11F-90CB-815B-4C4A295F6B7C">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:15:00 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codTelefone1" id="1031A2A5-64A6-77CF-6729-2B613E3B647F">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:39:35 UTC</createdTime>
+<generatorID>B2ACFD01-5323-8FEA-0ACC-A70D6E6FD79C</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<referedAttribute>561DE44B-5C56-865C-5D7A-6B73673D4E0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codEndereco1" id="6AE564DE-B8EA-BDF3-F629-86CD59623591">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:39:40 UTC</createdTime>
+<generatorID>76D4A1B8-ADB9-70FD-C0D6-444B67054C09</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<referedAttribute>153D6803-B627-D98F-7A81-9C8CAAFE713B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2A987F5-5729-AE00-AC4F-91E75E0ABEA5" name="representante PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 19:05:47 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>410A1A04-A491-FD11-A0EC-8238B1B48174</attributeRef>
+<attributeRef>FA30E122-9FC9-6780-53FF-918E63D30AA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

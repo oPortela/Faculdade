@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C8CF5B4-1CD4-E898-94CB-EB06F5FEF848" name="fornecedor">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>43C9EFC2-53F9-EFA4-9623-6BFC34346363</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<abbreviation>fornec</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codFornec" id="4C72B676-3DEF-AD40-F512-E7FD6459382B">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>483926BA-5FBC-7A7C-6C70-7C095E7BCAD5</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fornecedor" id="A1A2B829-48FE-C8C3-28D4-E730171DB366">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>754A97D5-B1A7-07C1-874C-18EC085059DD</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fantasia" id="DE34F91D-846E-D921-4B11-29E36E2757EA">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>0A93FF71-33A3-EA6B-A5E5-74D6C39020BF</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dtCadastro" id="8A025B13-633E-9B60-7DB2-63582456D66A">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>587D5A75-16DC-AFE1-591A-92077AE3F319</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codTelefone" id="BA456A41-4AC6-0ABA-5570-1449D82F4282">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:38 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD947E34-4BD7-1365-500B-494530AAE2E8" referredColumn="B0B77A5F-BB12-4EE0-1565-99D4F6DA0A1B"/>
+</associations>
+</Column>
+<Column name="email" id="4A1710DF-BF8F-6BE4-4804-DDE91E6084D1">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>EC66095B-9B4B-6AAE-41D1-F49C7E27198E</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codEndereco" id="38B9323E-3335-D7A0-7B29-F847C6E0BA01">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:43 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3775839A-0EF4-66E5-387A-83D3ADCDCD15" referredColumn="C29DBE17-9892-FA24-BC6E-2FA7044AEF68"/>
+</associations>
+</Column>
+<Column name="nomeRepresentante" id="A126C25A-E072-6919-AF26-A3C01EA80047">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>B0901FE0-B4E1-7D43-AB29-C6F244E2423F</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailRepresentante" id="E62D2A87-B44D-D3C0-CA73-F138C9E16D82">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>3F163BFB-747A-0020-609F-77A5293B4BD1</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telRepresentante" id="B55AA5D5-5DE0-81E0-C2FE-3BDC4E6332A0">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>9E4961E1-486F-D776-87DB-572021F6818F</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E622A05-1BC9-3BA5-3AAC-815A2A02A94D" name="fornecedor_PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>02716226-4DF1-4E94-5A73-94010FE6A35B</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C72B676-3DEF-AD40-F512-E7FD6459382B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E79CD65-837F-60E2-D4D4-BA5A0708A2DA" name="fornecedor_telefone_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:38 UTC</createdTime>
+<generatorID>D55DF424-0A91-1608-BAC3-3D7AD5C8FBF6</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA456A41-4AC6-0ABA-5570-1449D82F4282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F32DEE8A-EBC7-3D0B-256A-3A50AB2C4B2C" name="fornecedor_endereco_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:43 UTC</createdTime>
+<generatorID>ADDC42B4-2642-2A57-8582-0AC20D1B83A8</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38B9323E-3335-D7A0-7B29-F847C6E0BA01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

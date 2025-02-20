@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6608B66-CB07-1DE8-EE5C-89CAB9E1D608" name="Clientes">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>C467F943-D928-7967-11DA-5BCFD385994D</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<abbreviation>cli</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codCliente" id="73B2DC27-CA04-76B7-17A5-0AE3CE0D0C4B">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>E5EF966D-F0F8-2EAB-3DFE-B86964C9AB49</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente" id="C8D0E837-6F29-736D-8BA8-E039F117EE2C">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>1E42259F-BB44-F7D4-B33C-A7D036A0EDFE</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fantasia" id="23719AA9-DAEC-36D1-E8B3-D7ED2BE9A035">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>0849625C-7072-2EAB-90B2-0853C70E2498</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataCadastro" id="A3051B07-27F8-C18C-8B56-C99673115C51">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>0DB3F49B-91FB-F2D7-C2AD-E44D6FFF1C99</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="3BDC2D10-C50A-BAB9-65A4-80E4EE591194">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>C80CC790-1FAB-D41D-A6D5-D6961B6F199C</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipopessoa" id="56E7B416-BB59-2AA0-1533-58831555A939">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>44D4FDA5-E881-9E2D-D56D-A306047BEC3C</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_codTelefone" id="EFB49FFC-0C6E-A87E-0A26-065AD1D5E7B2">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>CE12FDDA-A308-3E6E-7EA4-EE96BD69C3FC</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A726E2B4-997F-35A0-BCF4-CA966EEF77F2" referredColumn="B0B77A5F-BB12-4EE0-1565-99D4F6DA0A1B"/>
+</associations>
+</Column>
+<Column name="endereco_codEndereco" id="90FDB517-CAC9-47C7-FACE-5920ED9D78A6">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>E8CAA775-37DF-2604-B8C9-9764F6E0FFAD</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38F3AA4D-F997-6E7D-B262-30D4CF143793" referredColumn="C29DBE17-9892-FA24-BC6E-2FA7044AEF68"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27DCFA70-F300-0D1E-EDB0-7634942301E9" name="Clientes_PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>70C0161C-FA88-8387-AD56-302900271D50</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73B2DC27-CA04-76B7-17A5-0AE3CE0D0C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F3B327F-94E6-C3EB-BFBC-54C7F4378736" name="Clientes__IDX">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8664E1A0-286A-534A-727B-174073D9CF37</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="90FDB517-CAC9-47C7-FACE-5920ED9D78A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74C1D19D-C31E-D68B-9419-DBF823F3B98D" name="Clientes__IDXv1">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2006B501-E137-1E93-7EA8-E2787423C8E1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EFB49FFC-0C6E-A87E-0A26-065AD1D5E7B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A10751D-393A-3BFF-983D-4284318A0B5E" name="Clientes_endereco_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>8664E1A0-286A-534A-727B-174073D9CF37</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90FDB517-CAC9-47C7-FACE-5920ED9D78A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59CDBED2-1B32-8D33-38C9-5BC7785F2084" name="Clientes_telefone_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>2006B501-E137-1E93-7EA8-E2787423C8E1</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFB49FFC-0C6E-A87E-0A26-065AD1D5E7B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B624F309-8ADA-5993-D48A-DE0AAF55AAEB" name="Pedidoc">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>24B8221D-8B00-B0E9-152B-DFB59055FFC0</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<abbreviation>pedc</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numped" id="31D31970-8504-65D0-02F8-EEDD33E90A96">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>F91720C0-EC59-BF44-2FD7-C2E6C31E4A32</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="D5BDB341-87E8-E595-192A-EB6FBE956D4B">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>F589E613-55C6-CFD8-CB1E-B0C831D9E5D9</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_codCliente" id="83ED6145-92AF-A7DD-4ACB-7FA1011D4055">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>52714DA0-38A6-664C-D8F5-449989A6F8E3</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18CC1405-0724-4A30-5AFB-979720DA1F73" referredColumn="73B2DC27-CA04-76B7-17A5-0AE3CE0D0C4B"/>
+</associations>
+</Column>
+<Column name="empregados_codEmpr" id="34B1D6DD-F431-9259-2BCA-0746545BB194">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>B0BAED1B-FDAC-63A3-D873-B729B19389C6</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9215D15D-6D23-838A-D391-FCCDC1913FC4" referredColumn="6F6A973C-4AD0-4E10-AF1D-9169B7B16E69"/>
+</associations>
+</Column>
+<Column name="mediaDesc" id="EE521E7D-714C-F320-6AB4-A5C1BF5A797F">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>E8A32692-B0B5-0DCA-3777-05556E83D8A6</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlTotal" id="B1C8DEAC-6017-3EEA-FDA0-50B334D0EE1E">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>D8A20E32-11D9-FD27-1F63-8CFD536047A5</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70444E53-D021-64BA-C7A5-1FDB1DF9CFD1" name="Pedidoc_PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>9E08A7A7-256B-6ADB-AFA9-B9996C8F86A1</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31D31970-8504-65D0-02F8-EEDD33E90A96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09CDBCA3-4940-CB6B-EE1E-DC0610660462" name="Pedidoc_Clientes_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>C48311CF-41D0-0276-303B-33472034D5E4</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83ED6145-92AF-A7DD-4ACB-7FA1011D4055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01305F27-B2FD-CC97-4559-368BD95355EC" name="Pedidoc_empregados_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>40CCF9D0-8D8D-72E9-CE3D-E7DFEDAACBC2</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34B1D6DD-F431-9259-2BCA-0746545BB194"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

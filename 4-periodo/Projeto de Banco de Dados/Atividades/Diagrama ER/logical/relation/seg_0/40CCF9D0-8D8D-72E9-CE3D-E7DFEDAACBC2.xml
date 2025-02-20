@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empregado_pedidoc" directorySegmentName="seg_0" id="40CCF9D0-8D8D-72E9-CE3D-E7DFEDAACBC2">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 23:21:21 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<sourcePk>C2A987F5-5729-AE00-AC4F-91E75E0ABEA5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B72D2DFF-16C1-99BF-E46B-B0DE2E9011BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24B8221D-8B00-B0E9-152B-DFB59055FFC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

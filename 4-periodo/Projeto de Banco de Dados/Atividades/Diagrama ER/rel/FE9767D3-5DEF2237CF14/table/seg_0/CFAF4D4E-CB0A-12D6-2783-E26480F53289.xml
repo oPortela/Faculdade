@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFAF4D4E-CB0A-12D6-2783-E26480F53289" name="PedidoI">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>514E3918-7EEB-9AFC-F411-4DFA1703CCA6</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<abbreviation>pedi</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numped" id="E168FDDE-101C-2C3B-94AD-DDF26B8B9651">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>17BC60FB-C846-15D0-DF9C-5314061B9E39</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="5CD9EBFD-1A14-857C-5AFF-3B59721481FB">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>881C2A86-76B6-2D9F-734B-0C28CFE468AF</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codCliente" id="954CD5C0-32BB-12C1-BE08-12F09B16ACD4">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:34:29 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43C602C4-1E0C-01A9-F682-3491DDBEFB18" referredColumn="73B2DC27-CA04-76B7-17A5-0AE3CE0D0C4B"/>
+</associations>
+</Column>
+<Column name="codProduto" id="EB64D259-386B-21C0-83E2-90C3271EFA38">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:25:03 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9329B744-AC69-84F0-3082-6D14A20FE30F" referredColumn="2B2CDC42-4FA7-BF1F-190C-3055A1207F36"/>
+</associations>
+</Column>
+<Column name="quantidade" id="2715D4B4-D578-650A-A536-FD7350DB8361">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>D32593F3-CFE4-6E73-6200-65A1D1871149</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto" id="6315A62F-229A-6EDA-9989-E3F733E38BA4">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>D2DE5DB7-BD8D-12EF-B6D6-DDD07592F437</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlunit" id="46FD2574-7024-310F-2802-6EF9CDF427EA">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>0AB1501A-BCF4-EC0D-EDC3-A5F4DF92E5A4</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vltotal" id="55CC3D2C-86D1-3555-19DA-FA0452C47603">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>D4A1A28C-9228-19AC-6B54-ABDBEFAA0AA6</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidoc_numped" id="1B2E84DA-A565-CFA1-736D-A74B62F7FDE4">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>A2EFB59F-D0D6-A0D2-1665-6137250B9801</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC65DB14-99EC-3B7E-C973-2717414E1DCC" referredColumn="31D31970-8504-65D0-02F8-EEDD33E90A96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B23EC21D-BC7A-645C-9598-458D2C067125" name="PedidoI_PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>FCD36EE7-CBD2-D9F4-084C-9E131CB56012</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E168FDDE-101C-2C3B-94AD-DDF26B8B9651"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77D23F94-708B-A1C9-BEA2-7ED6AA015EB4" name="PedidoI_Pedidoc_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>D2C6601D-0FC1-652F-0025-65B6A4AA31ED</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B2E84DA-A565-CFA1-736D-A74B62F7FDE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA030FE1-EB1B-53FD-7883-93DA1E68E754" name="PedidoI_Produtos_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:25:03 UTC</createdTime>
+<generatorID>CCFA7E1C-F21A-FA9D-5E8E-3A9E235C0E31</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB64D259-386B-21C0-83E2-90C3271EFA38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B622D63-D90E-1DEF-1D29-D9BD4C865520" name="PedidoI_Clientes_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:34:29 UTC</createdTime>
+<generatorID>70C0161C-FA88-8387-AD56-302900271D50</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="954CD5C0-32BB-12C1-BE08-12F09B16ACD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

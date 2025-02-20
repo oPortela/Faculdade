@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC65DB14-99EC-3B7E-C973-2717414E1DCC" containerWithKeyObject="CFAF4D4E-CB0A-12D6-2783-E26480F53289" localFKIndex="77D23F94-708B-A1C9-BEA2-7ED6AA015EB4" name="PedidoI_Pedidoc_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>D2C6601D-0FC1-652F-0025-65B6A4AA31ED</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<referredTableLongName>Pedidoc</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B624F309-8ADA-5993-D48A-DE0AAF55AAEB</referredTableID>
+<keyObject>70444E53-D021-64BA-C7A5-1FDB1DF9CFD1</keyObject>
+<referredKeyID>70444E53-D021-64BA-C7A5-1FDB1DF9CFD1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numped</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

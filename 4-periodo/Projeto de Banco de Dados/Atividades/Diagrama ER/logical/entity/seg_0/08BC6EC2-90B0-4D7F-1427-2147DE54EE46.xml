@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08BC6EC2-90B0-4D7F-1427-2147DE54EE46" name="clientejuridico">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 20:22:47 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>cliente</shortName>
+<synonym>clijuridico</synonym>
+<synonymToDisplay>clientejuridico</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codCliente" id="46C8CDEF-7FF3-043A-FE34-BF0F41A36EB1">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 23:18:27 UTC</createdTime>
+<generatorID>2CB37728-172E-4C2B-88FE-04064766DE34</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<referedAttribute>E5EF966D-F0F8-2EAB-3DFE-B86964C9AB49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="A4CF86C9-B73D-E57C-D272-7C670A72037B">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 20:22:47 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="incricaoEstadual" id="5F7DD5BD-EAB6-0489-DC96-B1BB8E7CF315">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 20:24:14 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58826A9D-4FFE-EE24-F65E-9F185035FB41" name="clientefisico PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 20:22:47 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4CF86C9-B73D-E57C-D272-7C670A72037B</attributeRef>
+<attributeRef>46C8CDEF-7FF3-043A-FE34-BF0F41A36EB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

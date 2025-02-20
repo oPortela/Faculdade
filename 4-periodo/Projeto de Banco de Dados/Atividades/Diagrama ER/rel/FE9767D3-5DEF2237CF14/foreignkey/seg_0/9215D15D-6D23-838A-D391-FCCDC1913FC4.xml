@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9215D15D-6D23-838A-D391-FCCDC1913FC4" containerWithKeyObject="B624F309-8ADA-5993-D48A-DE0AAF55AAEB" localFKIndex="01305F27-B2FD-CC97-4559-368BD95355EC" name="Pedidoc_empregados_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>40CCF9D0-8D8D-72E9-CE3D-E7DFEDAACBC2</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<referredTableLongName>empregados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B54E9076-B368-E2E9-F64F-6BDD0938E24B</referredTableID>
+<keyObject>C2C6E242-6BBA-789D-D99B-2BF886B6F351</keyObject>
+<referredKeyID>C2C6E242-6BBA-789D-D99B-2BF886B6F351</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>codEmpr</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10CB2CFF-292B-2EE2-BE5B-54E5A412EE7A" name="clientejuridico">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>08BC6EC2-90B0-4D7F-1427-2147DE54EE46</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<abbreviation>cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_codCliente" id="557637A9-840F-5FA6-1F35-07482BF3295A">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>46C8CDEF-7FF3-043A-FE34-BF0F41A36EB1</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A805157-03C1-8473-8199-4422CD1D9214" referredColumn="73B2DC27-CA04-76B7-17A5-0AE3CE0D0C4B"/>
+</associations>
+</Column>
+<Column name="cnpj" id="DB39A6FC-28C6-FA8B-BE6B-84CDFAC88A44">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>A4CF86C9-B73D-E57C-D272-7C670A72037B</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incricaoEstadual" id="35B4D232-DB62-13C9-C357-8BD9E4331257">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>5F7DD5BD-EAB6-0489-DC96-B1BB8E7CF315</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A91F7A73-06AC-6B45-6789-CA98CF724C3C" name="clientejuridico_PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>58826A9D-4FFE-EE24-F65E-9F185035FB41</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB39A6FC-28C6-FA8B-BE6B-84CDFAC88A44"/>
+<colUsage columnID="557637A9-840F-5FA6-1F35-07482BF3295A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF5D32D1-70BA-6058-584D-31EEED45AE2C" name="clientejuridico__IDX">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2CB37728-172E-4C2B-88FE-04064766DE34</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="557637A9-840F-5FA6-1F35-07482BF3295A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92B14808-0824-CF83-46A5-DD2054D9E66A" name="clientejuridico_Clientes_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>2CB37728-172E-4C2B-88FE-04064766DE34</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="557637A9-840F-5FA6-1F35-07482BF3295A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

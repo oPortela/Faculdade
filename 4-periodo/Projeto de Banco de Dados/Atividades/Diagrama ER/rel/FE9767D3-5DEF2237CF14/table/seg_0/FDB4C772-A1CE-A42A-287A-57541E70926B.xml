@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDB4C772-A1CE-A42A-287A-57541E70926B" name="clientefisico">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>EFEA5DBC-E8A9-A1DF-8417-1AD2DF0DA50B</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<abbreviation>cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_codCliente" id="B8975E1C-ABA9-B1FF-CF3D-7A26E8B1060E">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>DE2A2028-6EBC-12DB-A42D-73A38B6F5F62</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0558D3EC-C27F-D8B3-6A26-9D9228A7860E" referredColumn="73B2DC27-CA04-76B7-17A5-0AE3CE0D0C4B"/>
+</associations>
+</Column>
+<Column name="cpf" id="37366A26-D743-7219-9865-7D23671A3115">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>5A9C779C-3005-304E-3D67-9CB8540EE9AE</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03C84198-2E7E-F6EA-A323-E4ADE0B3811E" name="clientefisico_PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>67A1FE88-843E-3E1E-9C8F-F7B6687484AE</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37366A26-D743-7219-9865-7D23671A3115"/>
+<colUsage columnID="B8975E1C-ABA9-B1FF-CF3D-7A26E8B1060E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E31BE3F9-0F76-6139-4675-D721F9757418" name="clientefisico__IDX">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>26443EC6-8E68-D259-00DF-34718911C0AB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B8975E1C-ABA9-B1FF-CF3D-7A26E8B1060E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40C88068-660D-E1F8-A319-9279CB2170C8" name="clientefisico_Clientes_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>26443EC6-8E68-D259-00DF-34718911C0AB</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8975E1C-ABA9-B1FF-CF3D-7A26E8B1060E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

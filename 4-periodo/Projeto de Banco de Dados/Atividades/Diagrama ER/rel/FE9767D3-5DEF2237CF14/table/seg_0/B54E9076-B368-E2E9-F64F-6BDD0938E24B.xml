@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B54E9076-B368-E2E9-F64F-6BDD0938E24B" name="empregados">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>B72D2DFF-16C1-99BF-E46B-B0DE2E9011BF</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<abbreviation>empr</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codEmpr" id="6F6A973C-4AD0-4E10-AF1D-9169B7B16E69">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>410A1A04-A491-FD11-A0EC-8238B1B48174</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="789DBA4A-C91C-122B-81E7-0F884F0ACA9F">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>125D04BF-8306-401B-19AE-A81A5FFB9CD0</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="9976D38A-923B-615F-0D48-07CEFD0B1B37">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>FA30E122-9FC9-6780-53FF-918E63D30AA7</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dtinicio" id="F8345CD9-9CAB-F755-5613-EC19BEAA2433">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>8D66485B-30D5-DCB9-2A89-E2640226710F</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dtfim" id="53F4BACC-DA8B-F22A-6FBA-6364E2A63EAD">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>37CE373B-E6C2-B0A2-D954-B4EA2C398C32</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dtnascimento" id="4F74C631-D1F9-9E7A-79EC-BAD7A47F6CC6">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>F4C6566E-3F27-0B1B-30CF-6F6904F0B010</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codTelefone" id="51DF3C89-54AC-D784-DAB1-952F2ACEEF09">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:11 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="967B7F72-3190-8B19-161F-4CA71C997581" referredColumn="B0B77A5F-BB12-4EE0-1565-99D4F6DA0A1B"/>
+</associations>
+</Column>
+<Column name="email" id="33BD1288-96C9-73C6-65EB-D35A5B587974">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>DAD67C28-48B5-E450-B166-75865BDD4A69</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codEndereco" id="49C85D38-16C7-16B7-0A28-B932E6373D24">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:32 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21F678CB-FB50-8DC2-542F-C8196B2F26D3" referredColumn="C29DBE17-9892-FA24-BC6E-2FA7044AEF68"/>
+</associations>
+</Column>
+<Column name="obs" id="8A300F02-E25B-9325-4B19-E895533F224B">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>F8E88A4D-F11F-90CB-815B-4C4A295F6B7C</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2C6E242-6BBA-789D-D99B-2BF886B6F351" name="empregados_PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:23:59 UTC</createdTime>
+<generatorID>C2A987F5-5729-AE00-AC4F-91E75E0ABEA5</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F6A973C-4AD0-4E10-AF1D-9169B7B16E69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ACEF8FB-673B-4788-7BD1-BEB8ED573AD7" name="empregados_telefone_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:11 UTC</createdTime>
+<generatorID>D55DF424-0A91-1608-BAC3-3D7AD5C8FBF6</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51DF3C89-54AC-D784-DAB1-952F2ACEEF09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8A88AD5-4E2A-7978-FCF0-1D4C074DBF24" name="empregados_endereco_FK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-31 19:32:32 UTC</createdTime>
+<generatorID>ADDC42B4-2642-2A57-8582-0AC20D1B83A8</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C85D38-16C7-16B7-0A28-B932E6373D24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

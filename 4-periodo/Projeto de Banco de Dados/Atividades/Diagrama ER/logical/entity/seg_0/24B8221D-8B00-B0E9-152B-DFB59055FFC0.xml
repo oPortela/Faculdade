@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24B8221D-8B00-B0E9-152B-DFB59055FFC0" name="Pedidoc">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-28 19:01:38 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pedc</shortName>
+<synonym>pedido cabeçalho</synonym>
+<synonymToDisplay>pedidoC</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numped" id="F91720C0-EC59-BF44-2FD7-C2E6C31E4A32">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-28 19:02:06 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="F589E613-55C6-CFD8-CB1E-B0C831D9E5D9">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-28 19:02:23 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codCliente" id="52714DA0-38A6-664C-D8F5-449989A6F8E3">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 23:20:40 UTC</createdTime>
+<generatorID>C48311CF-41D0-0276-303B-33472034D5E4</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<referedAttribute>E5EF966D-F0F8-2EAB-3DFE-B86964C9AB49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codEmpr" id="B0BAED1B-FDAC-63A3-D873-B729B19389C6">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 23:21:21 UTC</createdTime>
+<generatorID>40CCF9D0-8D8D-72E9-CE3D-E7DFEDAACBC2</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<referedAttribute>410A1A04-A491-FD11-A0EC-8238B1B48174</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mediaDesc" id="E8A32692-B0B5-0DCA-3777-05556E83D8A6">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-28 19:03:28 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlTotal" id="D8A20E32-11D9-FD27-1F63-8CFD536047A5">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-28 19:07:34 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="454F8D3E-827F-AFA9-6C49-5264F6E4ABC4">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 23:21:21 UTC</createdTime>
+<generatorID>40CCF9D0-8D8D-72E9-CE3D-E7DFEDAACBC2</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<deprecated>true</deprecated>
+<referedAttribute>FA30E122-9FC9-6780-53FF-918E63D30AA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E08A7A7-256B-6ADB-AFA9-B9996C8F86A1" name="Pedidoc PK">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-28 19:02:19 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F91720C0-EC59-BF44-2FD7-C2E6C31E4A32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

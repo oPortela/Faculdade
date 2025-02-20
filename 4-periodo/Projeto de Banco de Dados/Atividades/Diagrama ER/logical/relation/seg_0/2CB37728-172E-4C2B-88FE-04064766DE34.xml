@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cliente_clientejuridico" directorySegmentName="seg_0" id="2CB37728-172E-4C2B-88FE-04064766DE34">
+<createdBy>Estudos-Trabalho</createdBy>
+<createdTime>2024-10-30 23:18:27 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="FE9767D3-6563-95CE-7967-5DEF2237CF14" value="true"/>
+</engineerTo>
+<sourcePk>70C0161C-FA88-8387-AD56-302900271D50</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C467F943-D928-7967-11DA-5BCFD385994D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>08BC6EC2-90B0-4D7F-1427-2147DE54EE46</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
