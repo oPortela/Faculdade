@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Table Example</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Montjly Expenses</h1>
+
+    <table>
+        <th>Janeiro</th>
+        <table>
+            <th>Aluguel</th>
+            <th>Serviços Públicos</th>
+            <th>Alimentação</th>
+            <th>Entretenimento</th>
+        </table>
+    </table>
+</body>
+</html>
