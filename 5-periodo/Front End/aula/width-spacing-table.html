@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Width and Spacing Example</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        /*thead > tr > th, tfoot > tr > td {
+            background-color: rgb(255, 126, 126);
+        }*/
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Restaurant Menu</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Entradas</th>
+            </tr>
+            <tr>
+                <th>Pratos</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mix Salada</td>
+                <td>R$ 25,90</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

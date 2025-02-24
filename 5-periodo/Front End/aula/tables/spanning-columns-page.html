@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanning Columns in a Table</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        thead > tr > th {
+            background-color: rgb(126, 208, 255);
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Schedule</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Dias da Semana</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+                <th>Disciplina</th>
+                <th>professor</th>
+            </tr>
+
+            <tr>
+                <td>Segunda-Feira</td>
+                <td>19:00 ás 22:40</td>
+                <td>Desenvolvimento Web Front-End</td>
+                <td>Weder</td>
+            </tr>
+
+            <tr>
+                <td>Terça-Feira</td>
+                <td>19:00 ás 22:40</td>
+                <td>Direito Cibernético</td>
+                <td>Online</td>
+            </tr>
+
+            <tr>
+                <td>Quarta-Feira</td>
+                <td>19:00 ás 22:40</td>
+                <td>Árvores e Grafos</td>
+                <td>William</td>
+            </tr>
+
+            <tr>
+                <td>Quinta-Feira</td>
+                <td>19:00 ás 22:40</td>
+                <td>Sistema gerenciadores de Banco de Dados</td>
+                <td>Weder</td>
+            </tr>
+
+            <tr>
+                <td>Sexta-Feira</td>
+                <td>19:00 ás 22:40</td>
+                <td>Governança de Ti</td>
+                <td>Eder</td>
+            </tr>
+
+            <tr>
+                <td>Sábado</td>
+                <td>08:00 ás 10:59</td>
+                <td>English Starter - Gramática</td>
+                <td>Pedro</td>
+            </tr>
+
+            <tr>
+                <td>Sábado</td>
+                <td>11:00 ás 12:30</td>
+                <td>English Starter - Listener & Speaking</td>
+                <td>Richard</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

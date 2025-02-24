@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantically Structures Table</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        thead > tr > th, tfoot > tr > td {
+            background-color: rgb(255, 126, 126);
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Report</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço (R$)</th>
+                <th>Preço Total (R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Placa mãe Gigabyte B550M AORUS Elite</td>
+                <td>1</td>
+                <td>929,90</td>
+                <td>929,90</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Memória Kingston Fury DDR4 8GB</td>
+                <td>2</td>
+                <td>179,99</td>
+                <td>359,98</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>HD SSD Kingston 480GB</td>
+                <td>1</td>
+                <td>219,98</td>
+                <td>219,98</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Placa de Vídeo Galax NVIDIA GeForce RTX 3050 6gb</td>
+                <td>1</td>
+                <td>1.399,00</td>
+                <td>1.399,00</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Ganinete Gamer Aquário em VDO C/ 4 Fans RGB</td>
+                <td>1</td>
+                <td>328,00</td>
+                <td>328,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total:</td>
+                <td>3.236,86</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
