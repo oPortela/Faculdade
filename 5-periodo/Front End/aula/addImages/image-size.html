@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Image Size</title>
+    <style>
+        div#game1 > img {
+            height: 200px;
+            width: 300px;
+        }
+
+        div#game2 > img {
+            height: 300px;
+            width: 400px;
+        }
+
+        div#game3 > picture > img {
+            height: 400px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Size adjustments</h1>
+
+    <div id="game1">
+        <img src="images/art.jpg" alt="ArtWorks games 1">
+    </div>
+    
+    <div id="game2">
+        <img src="images/artgame.jpg" alt="ArtWorks games 2">
+    </div>
+    
+    <div id="game3">
+        <picture>
+            <img src="images/ori.jpg" alt="Game Ori">
+            <figcaption>Ori and the Blind Forest</figcaption>
+        </picture>
+    </div>
+</body>
+</html>

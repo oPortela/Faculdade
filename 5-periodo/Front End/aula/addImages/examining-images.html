@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspecting Web Images</title>
+    <style>
+        div#master{
+            display: flex;
+            
+        }
+        div#local {
+            border: solid 1px black;
+            height: 250px;
+            width: 250px;
+            margin-right: 20px;
+        }
+
+        div#url {
+            border: solid 1px black;
+            height: 250px;
+            width: 250px;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Sources</h1>
+    <div id="master">
+        <div id="local">
+            <img src="images/salto-corumba.jpg" alt="Salto Corumbá">
+            <p>Aqui utilizamos a chamada da imagem via caminho do arquivo local em nosso computador/servidor</p>
+        </div>
+
+        <div id="url">
+            <img src="https://evermonte.com/wp-content/uploads/2022/09/tecnologia-inteligente-trabalho-humanizado.png" alt="Salto Corumbá">
+            <p>Aqui utilizamos a chamada da imagem via url que fica hospedada em outra estação. Cuidado a utilizar esse tipo de arquivo pois se o provedor desta imagem ficar offline sua imagem não funcionará.</p>
+        </div>
+    </div>
+</body>
+</html>
