@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        form {
+            background-color: aqua;
+            border-radius: 10px;
+            padding: 5px;
+            width: 400px;
+            height: auto;
+            border: solid 1px black;
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get" enctype="multipart/form-data">
+        <p>Usuário: <input type="text" name="nome" id="" placeholder="Nome" required minlength="3" maxlength="10"></p>
+        <p>Número: <input type="number" name="tpnumber" min="1" max="10" step="2"></p>
+        <p>E-mail: <input type="email" name="tpemail" pattern=".+gmail\.com\.br"></p>
+        <p>Arquivo: <input type="file" name="file" multiple></p>
+        <p>Range: <input type="range" name="range" min="1" max="100" value="80"></p>
+        <p>Cor: <input type="color" name="color"></p>
+        <p>Senha: <input type="password" name="senha" id="" placeholder="Senha" required minlength="8" value="nome"></p>
+        <p>CheckBox: 
+            <input type="checkbox" name="service" value="itunes" checked="checked">iTunes</input>
+            <input type="checkbox" name="service" value="lastfm">Last.Fm</input>
+            <input type="checkbox" name="service" value="spotify">Spotify</input>
+        </p>
+        <p>Radio:
+            <input type="radio" name="radio" value="rock">Rock</input>
+            <input type="radio" name="radio" value="rock">Jazz</input>
+            <input type="radio" name="radio" value="rock">Forro</input>
+        </p>
+        <button type="submit" name="enviar" value="ok">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

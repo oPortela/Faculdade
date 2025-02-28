@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validating Form</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" pattern="\(\d{2}\) \d{4,5}-\d{4}" placeholder="(00) 0000-0000">
+            <p>E-mail: <input type="email" name="email" pattern=".+gmail\.com\.br" required></p>
+            <p>Senha: <input type="password" name="senha" required minlength="3" maxlength="10"></p>
+            <button type="submit">Logar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
